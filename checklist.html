@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>香港三日旅遊規劃檢核表</title>
+    <link rel="stylesheet" href="checklist.css">
+    <style>
+        /*  新增的 CSS 樣式，用於連結圖示 */
+        .item-link {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+            vertical-align: middle; /* 與文字垂直對齊 */
+            opacity: 0.7; /* 稍微降低不透明度，使其不那麼搶眼 */
+        }
+
+        .item-link:hover {
+            opacity: 1.0; /* 滑鼠懸停時恢復正常不透明度 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>香港三日旅遊規劃檢核表</h1>
+        <div id="checklist-items">
+            </div>
+        <button id="calculate-button">計算結果</button>
+        <button id="print-button">列印檢核表</button>  <!-- 新增列印按鈕 -->
+        <div id="results-area" style="display:none;">
+            <h2>檢核表結果</h2>
+            <div id="results-details"></div>
+            <div id="total-score"></div>
+            <div id="score-rating"></div>
+            <div id="reminders"></div>
+        </div>
+    </div>
+    <script src="checklist.js"></script>
+</body>
+</html>

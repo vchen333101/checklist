@@ -1,0 +1,66 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.checklist-category {
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.checklist-item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.level-options label {
+    margin-right: 20px; /* Increased margin for better spacing */
+}
+
+#calculate-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#calculate-button:hover {
+    background-color: #45a049;
+}
+
+#results-area {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#reminders {
+    margin-top: 20px;
+    color: red;
+}
+
+/* 新增的 CSS 樣式 */
+.item-incomplete {
+    color: red; /* 將未完成項目文字設為紅色 */
+    font-weight: bold; /* 可選: 將未完成項目文字加粗 */
+}
+
+.level-status {
+    font-style: italic; /* 可選: 將檢核狀況文字設為斜體 */
+    color: #777; /* 可選: 將檢核狀況文字設為灰色 */
+    margin-left: 5px; /* 可選: 調整檢核狀況文字與項目名稱之間的間距 */
+}
